@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+  
+        <link rel="stylesheet" type="text/css"
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dashboard.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img width="40px" src="recycle.png" alt="">
+                <span class="logoname">logo name</span>
+            </div>
+            <div class="searchbox">
+            <form action="">
+                <input type="text" placeholder="search">
+                <i class="fafa-search"></i>
+            </form>
+            </div>
+            <div class="navitem">
+                <div class="lang">
+                    <select name="" id="">
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                    </select>
+                </div>
+
+                <div class="icons">
+                    <ul>
+                     <li><i class="fa fa-envelope"></i></li>
+                     <li><i class="fa fa-bell"></i></li>
+                    </ul>
+                </div>
+                <div class="account">
+                    <img width="25px" height="25px" src="pic.jpeg" alt="">
+                    <span class="name">Robert Downey</span>
+                    <span class="username">@robert545</span>
+                </div>
+            </div>
+        </div>
+
+   <div class="container-body">
+       <div class="sidebar">
+           <ul>
+              <li class="dashboard">
+                  <i class="fa fa-dashcube"></i>
+                  <a href="#">Dashboard</a>
+              </li>
+              <li class="">
+                  <i class="fa fa-money"></i>
+                  <a href="#">balance</a>
+              </li>
+              <li class="">
+                  <i class="fa fa-envelope-o"></i>
+                  <a href="#">invoice</a>
+              </li>
+              <li class="">
+                  <i class="fa fa-credit-card-alt"></i>
+                  <a href="#">card</a>
+              </li>
+              <li class="">
+                  <i class="fa fa-history"></i>
+                  <a href="#">history</a>
+              </li>
+              <li class="">
+                  <i class="fa fa-info-circle"></i>
+                  <a href="#">details</a>
+              </li>
+           </ul>
+       </div>
+
+       <div class="main-body">
+           <div class="tittle">
+               <span class="greeting">Hii,Robert</span>
+               <h2>overview</h2>
+           </div>
+
+           <div class="cards">
+               <div class="row row-1">
+                   <div class="col">
+                       <div class="balance-card">
+                           <h3 class="cardtittle">Balance</h3>
+                           <h2 class="balance">$ 54421.86</h2>
+                           <span class="balancestatus">+15%</span>
+                           <img width="110px" height="80px" src="bar.png" alt="">
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="latest-activity">
+                           <h3 class="cardtittle">Latest activity</h3>
+                           <img width="100%" height="100p%" src="graph.svg" alt="">
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="debit-card">
+                           <h3 class="cardtittle">My Card</h3>
+                           <h3 class="cardnumber">1234 5678 9000 0101</h3>
+                           <h3 class="cardholder">Robert Downey</h3>
+                       </div>
+                   </div>
+               </div>
+               <div class="row row-2">
+                   <div class="col">
+                       <div class="total-invoice">
+                           <h3 class="cardtittle">Total invoice</h3>
+                           <span class="t-i">520</span>
+                           <span class="status">+12%</span>
+                       </div>
+                   </div>
+                   <div class="col">
+                   <div class="paid-invoice">
+                          <h3 class="cardtittle">Total invoice</h3>
+                          <span class="p-i">520</span>
+                          <span class="status">+85%
+                              <i class="fa fa-line-chart"></i>
+                          </span>
+                   </div>
+            </div>
+                   <div class="col">
+                     <div class="unpaid-invoice">
+                    <h3 class="cardtittle">Total invoice</h3>
+                    <span class="u-i">520</span>
+                    <span class="status">+15%
+                        <i class="fa fa-line-chart"></i>
+                    </span>
+                   </div>
+            </div>
+                   <div class="col">
+                   <div class="invoice-sent">
+                    <h3 class="cardtittle">Total invoice</h3>
+                    <span class="i-s">520</span>
+                    <span class="status">
+                        <i class="fa fa-check"></i>
+                    </span>
+                </div>
+                </div>
+               </div>
+
+           </div>
+       </div>
+   </div>
+    
+</body>
+</html>
